@@ -21,7 +21,8 @@ while len(states_guessed) < 50:
         t = turtle.Turtle()
         t.penup()
         t.hideturtle()
-        state_data = data[data.states == answer] 
+        state_data = data[data.state == answer] 
         t.goto(int(state_data.x), int(state_data.y))
+        t.write(answer)
 
 screen.exitonclick()
