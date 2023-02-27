@@ -18,5 +18,10 @@ while len(states_guessed) < 50:
     
     if answer in states_list:
         states_guessed.append(answer)
-        
+        t = turtle.Turtle()
+        t.penup()
+        t.hideturtle()
+        state_data = data[data.states == answer] 
+        t.goto(int(state_data.x), int(state_data.y))
+
 screen.exitonclick()
