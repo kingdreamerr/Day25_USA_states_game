@@ -15,6 +15,11 @@ data['column name'].to_list()
 
 ## Project to solidify material learned: 
 
+### Preview:
+![pic1](./pic1.png)||![pic2](./pic2.png)
+![pic3](./pic3.png)
+
+
 ### USA_states_game
 
 > Created using the turtle module... In this game you have to guess as many states as you can and you can't guess all of them no problem just type "exit" and a file will be generated to show you the ones you failed to get right
